@@ -10,5 +10,5 @@ import org.apache.ibatis.annotations.Mapper;
  * @description:
  **/
 @Mapper
-public interface UserDao extends BaseMapper<User> {
+public interface UserMapper extends BaseMapper<User> {
 }
