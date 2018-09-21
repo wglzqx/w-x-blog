@@ -3,8 +3,6 @@ server:
 spring:
   profiles:
     active: dev
-  thymeleaf:
-    cache: false
 ## myBatisPlus
 mybatis-plus:
   type-aliases-package: com.wxblog.core.bean

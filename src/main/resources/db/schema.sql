@@ -63,7 +63,7 @@ create table blog_topic
    title                varchar(255),
    content              text,
    user_id              bigint,
-   "read count"         int,
+   read_count           int,
    like_count           int,
    created_at           datetime,
    status               int comment '1-正常；
@@ -98,9 +98,7 @@ create table blog_user_outreach
    user_id              bigint,
    type                 varchar(50),
    url                  varchar(255),
-   icon
-   icon
-   icon     varchar(255),
+   icon                 varchar(255),
    created_at           datetime,
    primary key (id)
 );
