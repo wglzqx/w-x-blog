@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2018/9/21 11:12:47                           */
+/* Created on:     2018/9/21 14:54:28                           */
 /*==============================================================*/
 
 
@@ -95,6 +95,7 @@ create table blog_user
 create table blog_user_outreach
 (
    id                   bigint not null auto_increment,
+   user_id              bigint,
    type                 varchar(50),
    url                  varchar(255),
    icon
