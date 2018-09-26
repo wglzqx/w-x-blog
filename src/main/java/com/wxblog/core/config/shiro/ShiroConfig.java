@@ -35,6 +35,7 @@ public class ShiroConfig {
     @Bean
     public ShiroFilterFactoryBean shiroFilterFactoryBean(DefaultWebSecurityManager securityManager){
         ShiroFilterFactoryBean filterFactoryBean=new ShiroFilterFactoryBean();
+        filterFactoryBean.setSecurityManager(securityManager);
         filterFactoryBean.setLoginUrl("/login");
         filterFactoryBean.setSuccessUrl("/admin");
         /**
