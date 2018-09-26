@@ -1,6 +1,8 @@
 package com.wxblog.core.bean;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
+import org.apache.ibatis.type.Alias;
 
 import java.util.Date;
 
@@ -10,6 +12,7 @@ import java.util.Date;
  * @description:
  **/
 @Data
+@Alias("User")
 public class User {
 
     private Long id;

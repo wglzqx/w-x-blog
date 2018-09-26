@@ -1,0 +1,32 @@
+.login-page{
+    background: #eaeaea;
+}
+.login-page .layui-container{
+    width: 432px;
+    height: 280px;
+    margin-top: 100px;
+    background: #fff;
+}
+.login-page .login-title{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.login-page .layui-input{
+    border: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.login-page .layui-input-block{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.login-page .layui-btn{
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    background-color: #0084ff;
+}
+.login-page .layui-btn:focus{
+    border-color: #0077e6;
+    background-color: #0077e6;
+}
